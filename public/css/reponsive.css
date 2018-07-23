@@ -1,0 +1,840 @@
+/*-- responsive media queries --*/
+@media(max-width:1680px){
+	.carousel-indicators {
+        bottom: 20%;
+        left: 18%;
+    }
+}
+@media(max-width:1600px){
+	.carousel-indicators {
+        bottom: 20%;
+        left: 16%;
+    }
+}
+@media(max-width:1440px){
+	.carousel-indicators {
+        bottom: 20%;
+        left: 12%;
+    }
+    .header-top_agileits {
+        margin: 2em auto 0;
+        width: 65%;
+    }
+}
+@media(max-width:1366px){
+	.header-top_agileits {
+        width: 75%;
+    }
+    .services, .team, .contact-w3layouts, .agile_testimonials, #last_bottom_agile, #pricing {
+        padding: 4em 0;
+    }
+    #welcome {
+        padding: 4em 0 9em 0;
+    }
+    .carousel-control .icon-prev, .carousel-control .glyphicon-chevron-left {
+      left: 20%;
+    }
+    .carousel-control .icon-next, .carousel-control .glyphicon-chevron-right {
+      right: 20%;
+    }
+    .carousel-indicators {
+        bottom: 20%;
+        left: 10%;
+    }
+    .carousel-caption h2, .carousel-caption h3 {
+        font-size: 2.8em;
+        font-weight: 300;
+        letter-spacing: 5px;
+    }
+    .testmonial_agile_info {
+     padding: 0em 4em;
+    }
+}
+@media(max-width:1280px){
+	.header-top_agileits {
+        width: 87%;
+    }
+    .carousel-indicators {
+        bottom: 20%;
+        left: 8%;
+    }
+    .w3_agile_team_grid h3 {
+      font-size: 1.2em;
+    }
+    .w3l_header {
+      font-size: 2.6em;
+    }
+    #welcome {
+        padding: 4em 0 4em 0;
+    }
+    .sale-w3ls h6 {
+     font-size: 2.8em;
+    }
+    .testmonial_agile_info {
+      padding: 0em 3em;
+    }
+    .pricing-bottom-bottom p {
+      font-size: 0.8em;
+    }
+    .pricing-bottom {
+        padding: 4em 1em;
+    }
+    
+}
+@media(max-width:1080px){
+	.carousel-indicators {
+        bottom: 20%;
+        left: 8%;
+    }
+    .w3l_header {
+        font-size: 2.4em;
+    }
+    .w3_agile_team_grids,.agile_wthree_inner_grids {
+        margin: 2.5em 0 0;
+    }
+    .agileits-service-info h5 {
+        font-size: 1.1em;
+        letter-spacing: 2px;
+    }
+    .sale-w3ls {
+      min-height: 360px;
+    }
+    .sale-w3ls h6 {
+      font-size: 2.6em;
+    }
+    div#small-dialog {
+        padding: 20px;
+        width: 48%;
+    }
+    .agile_tesimonials_content {
+        padding: 3em 2em;
+        width: 74%;
+        margin: 2em auto 0em;
+    }
+    .sign.text-center {
+        margin-top: 45px;
+    }
+    .aboutimg img {
+        position: absolute;
+        left: 0%;
+        margin: 0 0 0 2em;
+        bottom: -77%;
+        width: 300px;
+        height: 300px;
+    }
+    .w3layouts_mail_grid_left {
+        width: 50%;
+        margin-bottom: 1em;
+    }
+    .w3layouts_mail_grid_left1 i {
+        font-size: 1.3em;
+        line-height: 3.5em;
+    }
+}
+@media(max-width:1050px){
+	.header-top_agileits {
+        width: 93%;
+    }
+    
+}
+@media(max-width:1024px){
+	.carousel-indicators {
+        bottom: 20%;
+        left: 7%;
+    }
+}
+@media(max-width:991px){
+	.carousel-indicators {
+        bottom: 20%;
+        left: 16%;
+    }
+    .about_agileinfo_grid_imgs img {
+        width: 75%;
+        margin: 2em 0 0 0em;
+        text-align: center;
+    }
+    #welcome {
+        padding: 4em 0 22em 0;
+    }
+    .aboutimg img {
+        position: absolute;
+        left: 0%;
+        margin: 0 0 0 4em;
+        bottom: -71%;
+        width: 300px;
+        height: 300px;
+    }
+    .w3ls_services_agile-grid.two {
+        margin-top: 0;
+    }
+    .w3ls_services_agile-grid {
+        padding: 0 10px;
+        margin-bottom: 2em;
+    }
+    .w3_agile_team_grid {
+        text-align: center;
+        float: left;
+    }
+    .agileits-service-info span {
+        width: 20%;
+        height: 1%;
+        left: 40%;
+        bottom: 57%;
+    }
+    .agile_port_w3ls_info {
+        margin: 0 10%;
+    }
+    .menu_w3ls_agile_top_section {
+        margin-bottom: 3em;
+    }
+    .pricing_inner_w3ls {
+        width: 47.3%;
+        margin: 0 0.5%;
+        float: left;
+    }
+    .pricing_inner_w3ls:nth-child(3) {
+        margin:0;
+        margin-top:1em;
+     }
+     .navbar-nav > li > a {
+        margin: 0;
+        padding: 0 1.2em;
+     }
+     .footer-grid_wthree_info:nth-child(2) {
+        margin: 2em 0;
+    }
+    .footer-grid_wthree_info h3 {
+        font-size: 1.6em;
+        margin: 0 0 0.5em 0;
+    }
+    .sale-w3ls h6 {
+        font-size: 2.4em;
+        line-height: 1.5em;
+    }
+    .testmonial_agile_info {
+        padding: 0em 3em;
+        text-align: center;
+        margin-top: 1em;
+    }
+    .agileits-button.two {
+        margin-top: 2em;
+        text-align: center;
+    }
+   div#small-dialog {
+        padding: 20px;
+        width: 57%;
+    }
+    .mail-grid1-form {
+        margin-top: 2em;
+    }
+    .w3layouts_mail_grid_left {
+        width: 50%;
+        margin-bottom: 1em;
+        float: left;
+    }
+}
+@media(max-width:900px){
+    .agileits-service-info h5 {
+        font-size: 1.1em;
+        letter-spacing: 2px;
+        margin: 2em 0;
+    }
+     .agileits-service-info p {
+       margin-top: 1.5em;
+    }
+    .agileits-service-info span {
+        width: 20%;
+        height: 1%;
+        left: 40%;
+        bottom: 58%;
+    }
+    .carousel-indicators {
+        bottom: 20%;
+        left: 13%;
+    }
+    .agile_port_w3ls_info {
+        margin: 0 6%;
+    }
+    div#small-dialog {
+        padding: 20px;
+        width: 78%;
+    }
+
+ }
+@media(max-width:800px){
+	.carousel-caption {
+        min-height: 454px!important;
+        padding-top: 7em;
+    }
+    .carousel-indicators {
+        bottom: 20%;
+        left: 9%;
+    }
+    .agile_port_w3ls_info {
+        margin: 0 1.2%;
+    }
+    .coupons {
+      padding: 3em 0;
+    }
+    .agileits-logo h1 a {
+      font-size: 1.2em;
+    }
+}
+@media(max-width:768px){
+	.header-top_agileits {
+        width: 100%;
+    }
+    .agile_port_w3ls_info {
+        margin: 0 0%;
+    }
+    .agile_gallery_grid {
+        float: left;
+        padding: 0;
+        width: 50%;
+    }
+    .carousel-indicators {
+        bottom: 22%;
+        left: 7%;
+    }
+    .carousel-caption {
+        min-height: 407px!important;
+        padding-top: 5.5em;
+    }
+    .carousel-caption h2, .carousel-caption h3 {
+        font-size: 2.6em;
+        font-weight: 300;
+        letter-spacing: 3px;
+    }
+    #welcome h2 {
+        font-size: 2.1em;
+        margin-bottom: 0.5em;
+        line-height: 1.5em;
+    }
+    .w3l_header {
+        font-size: 2.2em;
+    }
+}
+@media(max-width:767px){
+    .navbar-default .navbar-toggle {
+		border-color: #fff;
+		background: #ec9114;
+	}
+	.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+		background-color: #ec9114;
+	}
+	.navbar-default .navbar-toggle .icon-bar {
+		background-color: #fff;
+	}
+	.navbar-right {
+		margin: 0;
+		float: none !important;
+		text-align: center;
+	}
+	.navbar-nav {
+		margin: 0;
+		background:rgba(0, 0, 0, 0.85);
+	}
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+		border: none;
+	}
+	.navbar-collapse {
+		box-shadow: none;
+	}
+	.navbar-nav > li,.agile_short_dropdown li a {
+		font-size: 13px;
+	}
+	.navbar-nav > li > a {
+		padding: 0;
+		margin: 1em 0;
+	}
+	.navbar-nav .open .dropdown-menu {
+		background-color:#ec9114;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+		color: #fff;
+	}
+	.navbar-nav .open .dropdown-menu > li > a, .navbar-nav .open .dropdown-menu .dropdown-header {
+		padding: 1em 0;
+	}
+	.navbar-collapse.in {
+        overflow-y: inherit;
+    }
+    .nav > li {
+        position: relative;
+        display: block;
+        margin: 1em 0;
+    }
+    .navbar-nav .open .dropdown-menu {
+        background-color: #00acee;
+    }
+    .navbar-nav .open .dropdown-menu > li > a {
+        line-height: 20px;
+        padding:7px 0;
+        color:#fff;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+      color:#fff;
+    }
+    .navbar-toggle {
+        position: relative;
+        float: none;
+        padding: 9px 10px;
+        margin-top:0px;
+        margin-right: 0;
+        margin-bottom:0px;
+        border-radius: 0;
+    }
+    .navbar-default .navbar-toggle {
+        border-color: #00acee;
+        background: #00acee;
+    }
+    .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+        background-color: #00acee;
+    }
+    .header-top_agileits {
+       margin: 1em auto 0;
+    }
+    .carousel-caption {
+        min-height: 370px!important;
+        padding-top: 5.5em;
+    }
+    .carousel-indicators {
+        bottom: 16%;
+        left: 7%;
+    }
+   .team, .contact-w3layouts, .agile_testimonials, #last_bottom_agile, #pricing {
+        padding:3.5em 0;
+    }
+    .services {
+          padding: 3.5em 0 2em 0;
+    }
+    .agileits-service-info h5 {
+        font-size: 1.1em;
+        letter-spacing: 2px;
+        margin: 2em 0 3.3em 0;
+    }
+    .banner_header_top_wthree {
+        padding: 1em 0 0.5em 0;
+    }
+    .navbar-default .navbar-nav > li > a {
+        letter-spacing: 1px;
+        font-size: 1.1em;
+    }
+    #welcome {
+        padding: 3.5em 0 20em 0;
+    }
+    .agileits-w3layouts-map iframe {
+        height: 350px;
+    }
+}
+@media(max-width:736px){
+	.carousel-caption {
+        min-height: 382px!important;
+        padding-top: 5.5em;
+    }
+    .carousel-indicators {
+        bottom: 17%;
+        left: 7%;
+    }
+    .about h4 {
+        font-size: 1.4em;
+    }
+    
+}
+@media(max-width:667px){
+	.w3_agile_team_grid {
+        text-align: center;
+        float: left;
+        width: 50%;
+    }
+     .sale-w3ls h6 {
+        font-size: 2.2em;
+        line-height: 1.5em;
+        letter-spacing: 4px;
+    }
+    .carousel-caption p {
+        letter-spacing: 10px;
+        font-size: 0.9em;
+    }
+    .carousel-control {
+      top: 124px;
+    }
+    h4.agile_sub_tittle {
+        margin-bottom: 1em;
+        font-size: 1.4em;
+    }
+}
+@media(max-width:640px){
+	.agile_gallery_grid {
+        float: left;
+        padding: 0;
+        width: 49%;
+    }
+    .agile_tesimonials_content {
+        padding: 2em 1em;
+        width: 90%;
+        margin: 2em auto 0em;
+    }
+    #welcome {
+        padding: 3.5em 0 18em 0;
+    }
+    .footer-top_agile_w3l {
+       padding: 3em 0 3em;
+    }
+    .wthree_copy_right p {
+        margin-top: 40px;
+        padding: 40px 0 0;
+        font-size: 0.9em;
+        letter-spacing: 2px;
+        line-height: 1.9em;
+    }
+    .sale-w3ls {
+        min-height: 310px;
+    }
+    .sale-w3ls h6 {
+        font-size: 2em;
+        line-height: 1.5em;
+        letter-spacing: 4px;
+        padding-top: 2em;
+    }
+    .pricing-top p span {
+       font-size: 3em;
+    }
+    .pricing-top h3 {
+       font-size: 1.7em;
+    }
+ }
+@media(max-width:600px){
+	.w3l_header {
+        font-size: 2em;
+    }
+    #welcome h2 {
+        font-size: 2em;
+        margin-bottom: 0.5em;
+        line-height: 1.5em;
+        letter-spacing: 1px;
+    }
+    .agile_gallery_grid {
+        float: left;
+        padding: 0;
+        width: 44%;
+    }
+}
+@media(max-width:568px){
+	.carousel-caption h2, .carousel-caption h3 {
+        font-size: 2.2em;
+        font-weight: 300;
+        letter-spacing: 3px;
+    }
+    .agile_gallery_grid {
+        float: left;
+        padding: 0;
+        width: 100%;
+    }
+    #welcome {
+        padding: 3em 0 16em 0;
+    }
+    .w3layouts_mail_grid_left {
+        width: 100%;
+        margin-bottom: 1em;
+        float: left;
+    }
+    .pricing_inner_w3ls,.pricing_inner_w3ls:nth-child(3) {
+        width: 82%;
+        margin: 2% 8%;
+        float: left;
+    }
+    div#small-dialog {
+        padding: 20px;
+        width:90%;
+    }
+    p.sub i, p.add i {
+        width: 32px;
+        height: 32px;
+        margin-left: 5px;
+    }
+    
+}
+@media(max-width:480px){
+    .carousel-caption {
+        min-height: 330px!important;
+        padding-top: 3.5em;
+    }
+    .carousel-caption h2, .carousel-caption h3 {
+        font-size: 2em;
+        font-weight: 300;
+        letter-spacing: 2px;
+    }
+    .carousel-indicators {
+        bottom: 17%;
+        left: 11%;
+    }
+    #welcome {
+        padding: 2em 0 14em 0;
+    }
+    .sale-w3ls h6 {
+        font-size: 1.8em;
+        line-height: 1.5em;
+        letter-spacing: 4px;
+        padding-top: 2.6em;
+    }
+    .agileits-w3layouts-map iframe {
+        height: 250px;
+    }
+    .team, .contact-w3layouts, .agile_testimonials, #last_bottom_agile, #pricing {
+        padding: 3em 0;
+    }
+    .w3_agile_team_grids, .agile_wthree_inner_grids {
+        margin: 1.5em 0 0;
+    }
+    div#small-dialog {
+        padding: 20px;
+        width: 98%;
+    }
+}
+@media(max-width:440px){
+    .w3l_header {
+        font-size: 1.8em;
+    }
+    .w3_agile_team_grid h3 {
+        font-size: 1.1em;
+    }
+    .w3_agile_team_grid p {
+        margin-bottom: 1em;
+        font-size: 0.9em;
+    }
+    .carousel-caption h2, .carousel-caption h3 {
+        font-size: 1.8em;
+        font-weight: 300;
+        letter-spacing: 2px;
+    }
+    .carousel-caption {
+        min-height: 281px!important;
+        padding-top: 3.5em;
+    }
+    .carousel-indicators {
+        bottom: 17%;
+        left: 13%;
+    }
+    .agileits-logo h1 a {
+        font-size: 1em;
+    }
+    .services {
+        padding: 2.5em 0 1em 0;
+    }
+    .w3_agile_team_grid h3 {
+        font-size: 1em;
+    }
+    h4.agile_sub_tittle {
+        margin-bottom: 1em;
+        font-size: 1.2em;
+    }
+    .modal-info h4 {
+      font-size: 1.6em;
+    }
+    .modal-info h5 {
+      font-size: 1.2em;
+    }
+    p.sub {
+      font-size: 12px;
+    }
+    p.add {
+      font-size: 14px;
+    }
+    .footer-grid_wthree_info h3 {
+        font-size: 1.3em;
+        margin: 0 0 0.5em 0;
+    }
+    .footer-top_agile_w3l {
+        padding: 2em 0 2em;
+    }
+    .coupons {
+        padding: 2em 0;
+    }
+    ul.payment-sendbtns {
+        float: none;
+        width: 100%;
+        margin: 0;
+    }
+    .pop_up h4 {
+        font-size: 1.4em;
+    }
+    .pricing-top p span {
+        font-size: 2em;
+    }
+    .pricing-bottom {
+        padding: 2em 1em;
+    }
+    p.sub {
+        font-size: 12px;
+        line-height: 2em;
+    }
+}
+@media(max-width:414px){
+	.aboutimg img {
+        position: absolute;
+        left: 0%;
+        margin: 0 0 0 4em;
+        bottom: -87%;
+        width: 215px;
+        height: 215px;
+    }
+    #welcome h2 {
+        font-size: 1.8em;
+        margin-bottom: 0.5em;
+        line-height: 1.5em;
+        letter-spacing: 1px;
+    }
+    .w3l_header {
+        font-size: 1.6em;
+    }
+    .about h4 {
+        font-size: 1.2em;
+    }
+    .sale-w3ls h6 {
+        font-size: 1.6em;
+        line-height: 1.5em;
+        letter-spacing: 4px;
+        padding-top: 2.6em;
+    }
+    .sale-w3ls {
+        min-height: 273px;
+    }
+    .pricing-top h3 {
+        font-size: 1.4em;
+    }
+    h4.agile_sub_tittle {
+        margin-bottom: 1em;
+        font-size: 1.1em;
+    }
+    .carousel-caption h2, .carousel-caption h3 {
+        font-size: 1.6em;
+        font-weight: 300;
+        letter-spacing: 2px;
+    }
+}
+@media(max-width:384px){
+    .carousel-caption {
+        min-height: 240px!important;
+        padding-top: 2.5em;
+    }
+    .carousel-indicators {
+        bottom: 8%;
+        left: 15%;
+    }
+    .carousel-caption p {
+        margin: 1em 0 1.5em 0;
+    }
+    #welcome h2 {
+        font-size: 1.6em;
+        margin-bottom: 0.5em;
+        line-height: 1.5em;
+        letter-spacing: 1px;
+    }
+    #welcome {
+        padding: 2em 0 13.5em 0;
+    }
+    .agileits-service-info h5 {
+        font-size: 1em;
+        letter-spacing: 1px;
+        margin: 2em 0 3.3em 0;
+    }   
+    
+}
+@media(max-width:375px){
+	.agileits-service-info h5 {
+        font-size: 1em;
+        letter-spacing: 1px;
+        margin: 2em 0 3.3em 0;
+    }
+    .agileits-button.two a, .agileits-button a {
+        padding: 0.6em 1em;
+        font-size: 0.9em;
+    }
+    .carousel-caption h2, .carousel-caption h3 {
+        font-size: 1.5em;
+        font-weight: 300;
+        letter-spacing: 1px;
+    }
+    .carousel-caption p {
+        letter-spacing: 7px;
+        font-size: 0.9em;
+    }
+    .w3_agile_team_grid {
+        float: left;
+        width: 100%;
+        margin-bottom:0.5em;
+    }
+    .w3l_header {
+        font-size: 1.5em;
+    }
+    .agileits-logo h1 a {
+        font-size: 0.8em;
+    }
+    .header-top_agileits {
+        margin: 0.5em auto 0;
+    }
+    .wthree_copy_right p {
+        margin-top: 25px;
+        padding: 16px 0 0;
+        font-size: 0.9em;
+        letter-spacing: 1px;
+        line-height: 1.9em;
+    }
+}
+@media(max-width:320px){
+	.about_agileinfo_grid_imgs img {
+        width: 100%;
+        margin: 2em 0 0 0em;
+        text-align: center;
+    }
+    .aboutimg img {
+        position: absolute;
+        left: 0%;
+        margin: 0 0 0 2em;
+        bottom: -72%;
+        width: 168px;
+        height: 168px;
+    }
+    #welcome {
+        padding: 2em 0 11em 0;
+    }
+    .menu_w3ls_agile_top_section,.sub-slider,.about_agileinfo {
+        padding: 0;
+    }
+    .sale-w3ls h6 {
+        font-size: 1.3em;
+        line-height: 1.5em;
+        letter-spacing: 4px;
+        padding-top: 2em;
+    }
+    .sale-w3ls {
+        min-height: 206px;
+    }
+    .payment-sendbtns input[type="reset"] {
+       padding: 12px 36px;
+    }
+    #welcome h2 {
+        font-size: 1.4em;
+        margin-bottom: 0.5em;
+        line-height: 1.5em;
+        letter-spacing: 1px;
+    }
+    .w3l_header {
+        font-size: 1.4em;
+        line-height: 1.4em;
+    }
+    .banner_header_top_wthree {
+        padding: 0.5em 0 0em 0;
+    }
+    .carousel-control .icon-next, .carousel-control .glyphicon-chevron-right {
+        right: 27%;
+    }
+    .carousel-caption h2, .carousel-caption h3 {
+        font-size: 1.4em;
+        font-weight: 300;
+        letter-spacing: 0px;
+    }
+ }
+
+/*-- //responsive media queries --*/

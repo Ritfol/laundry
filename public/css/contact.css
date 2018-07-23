@@ -1,0 +1,110 @@
+/*--Contact --*/
+.contact p.sub {
+    font-size: 15px;
+}
+.contact-w3layouts span {
+    color: #00acee;
+    margin-right: 8px;
+    text-align: center;
+}
+p.sub {
+    font-size: 16px;
+    margin-top: 1em;
+    color: #949393!important;
+}
+.add .icon,.sub .icon {
+    font-size: 16px!important;
+}
+p.add {
+    font-size: 16px;
+    margin-top: 9px;
+    color: #949393!important;
+}
+a.mail {
+    color: #949393;
+	text-decoration:none;
+}
+a.mail:hover {
+ color: #ffb900;
+}
+p.sub i,p.add i {
+    width: 32px;
+    height: 32px;
+    background: #111;
+    line-height: 30px;
+    border-radius: 50%;
+    margin-left: 14px;
+    text-align: center;
+    color: #fff;
+}
+.contact-w3layouts h3 {
+    margin-bottom: 0.5em!important;
+}
+.mail-grid1-form input[type="text"], 
+.mail-grid1-form input[type="email"], 
+.mail-grid1-form select ,  
+.mail-grid1-form textarea {
+    outline: none;
+    border: none;
+    font-size: 15px;
+    color: #888;
+    padding: 15px 15px;
+    background: #f9fcfd;
+    border: 1px solid #ddd;
+    width: 100%;
+    letter-spacing: 1px;
+}
+.mail-grid1-form input[type="text"], .mail-grid1-form select ,  .mail-grid1-form input[type="email"] {
+    margin-bottom: 1em;
+}
+.mail-grid1-form textarea {
+    margin: 0 0 1em;
+    min-height: 100px;
+    resize: none;
+}
+.mail-grid1-form input[type="submit"] {
+    outline: none;
+    display: inline-block;
+    text-decoration: none;
+    outline: none;
+    font-size: 15px;
+    letter-spacing: .5px;
+    padding: 13px 65px;
+    background: #ffb900;
+    font-size: 16px;
+    border: 2px solid #ffb900;
+    color: #fff;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    -webkit-appearance: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.mail-grid1-form input[type="submit"]:hover {
+    background: #0099e5;
+    border-color: #0099e5;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    -webkit-appearance: none;
+}
+p.para-agileits-w3layouts {
+    font-size: 14px;
+    line-height: 2em;
+    margin-top: 1em;
+    color: #717171;
+    letter-spacing: 1px;
+}
+.agileits-w3layouts-map iframe {
+    border: none;
+    width: 100%;
+    height: 400px;
+}
