@@ -20,7 +20,10 @@ class AdminController extends Controller
 {
     public function index()
     {
+
         $admin = Auth::guard('admin')->user();;
+
+        dd($admin);
 
         $activeCustomerOrders = CustomerOrder::where('confirmed' , true)->where('end' , '>=' , Carbon::now()->format('Y-m-d') )->get();
         $activeTenderOrders = TenderOrder::where('confirmed' , true)->where('end' , '>=' , Carbon::now()->format('Y-m-d') )->get();
