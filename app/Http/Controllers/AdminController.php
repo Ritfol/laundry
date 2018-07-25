@@ -9,6 +9,7 @@ use App\Tender;
 use App\Customer;
 use App\TenderOrder;
 use Carbon\Carbon;
+use Illuminate\Database\Query\Builder;
 use Illuminate\Routing\Route;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
@@ -18,12 +19,14 @@ use Illuminate\Support\Facades\Input;
 
 class AdminController extends Controller
 {
+
+
     public function index()
     {
 
         $admin = Auth::guard('admin')->user();;
 
-        dd($admin);
+        dd(CustomerOrder::with('customer')->find(4));
 
         $activeCustomerOrders = CustomerOrder::where('confirmed' , true)->where('end' , '>=' , Carbon::now()->format('Y-m-d') )->get();
         $activeTenderOrders = TenderOrder::where('confirmed' , true)->where('end' , '>=' , Carbon::now()->format('Y-m-d') )->get();
