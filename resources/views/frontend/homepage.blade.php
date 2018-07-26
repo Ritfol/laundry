@@ -104,7 +104,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
                 <div class="col-md-4 pricing_inner_w3ls">
                     <div class="pricing-top">
-                        <h3>Per Person</h3>
+                        <h3>Standard</h3>
                         <p>TZS<span>25,000</span>/Per month</p>
                     </div>
                     <div class="pricing-bottom">
@@ -122,7 +122,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 </div>
                 <div class="col-md-4 pricing_inner_w3ls">
                     <div class="pricing-top orange">
-                        <h3>Student Package</h3>
+                        <h3>Express</h3>
                         <p>TZS<span>20,000</span>/Per month</p>
                     </div>
                     <div class="pricing-bottom">
