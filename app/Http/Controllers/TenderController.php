@@ -149,6 +149,6 @@ class TenderController extends Controller
     {
         Auth::guard('tender')->logout();
 
-        return redirect()->route('tender_toLogin');
+        return redirect()->route('homepage');
     }
 }

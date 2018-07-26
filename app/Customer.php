@@ -10,9 +10,9 @@ class Customer extends Authenticatable
 {
     use Notifiable;
 
-    protected $fillable = ['name' , 'phone_number' , 'email' , 'gender', 'city' , 'location_description' , 'subscriptions'];
+//    protected $fillable = ['name' , 'phone_number' , 'email' , 'gender', 'city' , 'location_description' , 'subscriptions'];
 
-//    protected $hidden = ['gender' , 'password' , 'email' , 'city'];
+    public $hidden = ['gender' , 'password' , 'email' , 'city'];
 
 //    public function getNameAttribute($value){
 //

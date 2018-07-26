@@ -154,7 +154,7 @@ class CustomerController extends Controller
     {
         Auth::guard('customer')->logout();
 
-        return redirect()->route('customer_toLogin');
+        return redirect()->route('homepage');
     }
 
 }

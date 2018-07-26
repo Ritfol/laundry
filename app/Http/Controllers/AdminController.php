@@ -26,7 +26,7 @@ class AdminController extends Controller
 
         $admin = Auth::guard('admin')->user();;
 
-        dd(CustomerOrder::with('customer')->find(4));
+       // dd(Customer::has('orders', 5)->firstOrFail());
 
         $activeCustomerOrders = CustomerOrder::where('confirmed' , true)->where('end' , '>=' , Carbon::now()->format('Y-m-d') )->get();
         $activeTenderOrders = TenderOrder::where('confirmed' , true)->where('end' , '>=' , Carbon::now()->format('Y-m-d') )->get();
