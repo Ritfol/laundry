@@ -16,16 +16,21 @@
 					<h3>Connect with us</h3>
 					<div class="agileinfo-social-grids">
 						<ul>
-							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-							<li><a href="https://twitter.com/QuartersLaundry" target="_blank"><i class="fa fa-twitter"></i></a></li>
-							<li><a href="https://www.instagram.com/quarterslaundry/?hl=en"  target="_blank"><i class="fa fa-instagram"></i></a></li>
+							<li>
+								<a href="#"><i class="fa fa-facebook"></i></a>
+							</li>
+							<li>
+								<a href="https://twitter.com/QuartersLaundry" target="_blank"><i class="fa fa-twitter"></i></a>
+							</li>
+							<li>
+								<a href="https://www.instagram.com/quarterslaundry/?hl=en"  target="_blank"><i class="fa fa-instagram"></i></a>
+							</li>
 					
 						</ul>
 					</div>
 					<div class="bottons-agileits-w3layouts">
-                    <!----<a class="btn1-w3-agileits" href="#myModal2" data-toggle="modal"><i class="fa fa-sign-in" aria-hidden="true"></i>Login</a>.
-						<a class="btn1-w3-agileits" href="login.php" ><i class="fa fa-sign-in" ></i>Login</a>.
-					<!---	<a class="btn2-w3-agileits" href="#myModal3" data-toggle="modal"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Register</a>---->
+						<a class="btn1-w3-agileits" href="{{ route('login') }}"><i class="fa fa-sign-in" aria-hidden="true"></i>Login</a>.
+						<a class="btn2-w3-agileits" href="{{ route('signup') }}"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Sign up</a>
 					</div>
 					<div class="clearfix"></div>
 				</div>
