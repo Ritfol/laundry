@@ -122,17 +122,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 </div>
                 <div class="col-md-4 pricing_inner_w3ls">
                     <div class="pricing-top orange">
-                        <h3>Express faster</h3>
-                        <p>TZS<span>20,000</span>/Per month</p>
+                        <h3>Express</h3>
+                        <p>TZS<span>20,000</span>/Per 100 clothes</p>
                     </div>
                     <div class="pricing-bottom">
                         <div class="pricing-bottom-bottom">
-                            <p>Available at:</p><br>
-                            <p>Mwanza</p>
-                            <p>Arusha</p>
-                            <p>Dodoma</p>
-                            <br/>
-                            <p><span>Once per Week</span></p>
+                            <p>PickUp and Delivery</p>
+                            <p>Ironing</p>
+                            <p>100 clothes</p>
                         </div>
                     </div>
                 </div>
