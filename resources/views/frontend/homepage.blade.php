@@ -79,13 +79,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
                     <h3 class="w3l_header w3_agileits_header two"><span>Become a Quarters Member!</span></h3><br>
                     <p style="text-align:center;">
-                        <a href="{{ route('signup') }}"><button type="button"  class="btn btn-primary btn-lg">Sign Up</button></a>
-                        now to start getting quality laundry services.
-                    </p>
-                    <p style="text-align:center;">
-                        Already registered? Then <a href="{{ route('login') }}" data-toggle="modal" ><button type="button"  class="btn btn-primary btn-lg">Log in</button></a>
-                    </p>
-                </div>
+                     	Sign up or Log In below.
+                     </p>
 
             </div>
             <div class="col-md-1"></div>
@@ -123,16 +118,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <div class="col-md-4 pricing_inner_w3ls">
                     <div class="pricing-top orange">
                         <h3>Express</h3>
-                        <p>TZS<span>20,000</span>/Per month</p>
+                        <p>TZS<span>20,000</span>/Per 100 clothes</p>
                     </div>
                     <div class="pricing-bottom">
                         <div class="pricing-bottom-bottom">
-                            <p>Available at:</p><br>
-                            <p>Mwanza</p>
-                            <p>Arusha</p>
-                            <p>Dodoma</p>
-                            <br/>
-                            <p><span>Once per Week</span></p>
+                            <p>PickUp and Delivery</p>
+                            <p>Ironing</p>
+                            <p>100 clothes</p>
                         </div>
                     </div>
                 </div>
