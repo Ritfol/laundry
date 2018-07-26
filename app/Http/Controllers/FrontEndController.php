@@ -33,7 +33,7 @@ class FrontEndController extends Controller
 
     public function signup()
     {
-        return view('frontend.signup');
+        return view('frontend.choose-register');
     }
 
     public function login()
