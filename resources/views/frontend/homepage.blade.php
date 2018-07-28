@@ -79,7 +79,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
                     <h3 class="w3l_header w3_agileits_header two"><span>Become a Quarters Member!</span></h3><br>
                     <p style="text-align:center;">
-                     	Sign up or Log In below.
+                     	Sign up or Log In below for users who need a monthly subscription.
+                     </p>
+                     <br>
+                     <p>
+                     	For clients who need a quick one time service, please proceed to choose 
+                     	the Express service.
                      </p>
 
             </div>
@@ -109,10 +114,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             <p>Weekly bundle of clothes</p>
                             <br/>
                             <p><span>Once per Week</span></p>
-
-                        </div>
-
-
+                       </div>
+                       <div class="buy-button">
+									<a class="popup-with-zoom-anim" href="{{ route('login') }}">Subscribe Now</a>
+						</div>
                     </div>
                 </div>
                 <div class="col-md-4 pricing_inner_w3ls">
@@ -126,6 +131,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             <p>Ironing</p>
                             <p>100 clothes</p>
                         </div>
+                         <div class="buy-button">
+									<a class="popup-with-zoom-anim" href="">Order Now</a>
+						</div>
                     </div>
                 </div>
 
@@ -138,6 +146,86 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     </div>
 </div>
 <!--// pricing-->
+
+<!-- agile_testimonials -->
+<div class="test">
+	<div class="container">
+	<div class="col-md-3 test-left-agileinfo">
+	<h3 class="sub-tittle-agileits"><span>T</span>estimonials</h3>
+	</div>
+		<div class="col-md-9 test-gr">
+					<div class=" test-gri1">
+					 <div id="owl-demo2" class="owl-carousel">
+							<div class="agile">
+							   	<div class="test-grid">
+							   		<div class="col-md-8 test-grid1">
+										<p class="para-w3-agile"><i class="fa fa-quote-left"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.
+										Lorem ipsum dolor .</p>
+										<div class="test-info-w3ls">
+											<h4>Stella Franklin</h4>
+											<span>Lorem Ipsum</span>
+										</div>
+									</div>	
+									<div class="col-md-4 test-grid2">
+								
+									</div>
+								</div>	
+								<div class="clearfix"></div>
+							</div>
+							<div class="agile">
+							   	<div class="test-grid">
+							   		<div class="col-md-8 test-grid1">
+										<p class="para-w3-agile"><i class="fa fa-quote-left"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.
+										Lorem ipsum dolor.</p>
+										<div class="test-info-w3ls">
+											<h4>Tim Mathis</h4>
+											<span>Lorem Ipsum</span>
+										</div>
+									</div>	
+									<div class="col-md-4 test-grid2">
+										
+									</div>
+								</div>	
+								<div class="clearfix"></div>
+							</div>
+							<div class="agile">
+							   	<div class="test-grid">
+							   		<div class="col-md-8 test-grid1">
+										<p class="para-w3-agile"><i class="fa fa-quote-left"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.
+										Lorem ipsum dolor .</p>
+										<div class="test-info-w3ls">
+											<h4>Patrick Jean</h4>
+											<span>Lorem Ipsum</span>
+										</div>
+									</div>	
+									<div class="col-md-4 test-grid2">
+									
+									</div>
+								</div>	
+								<div class="clearfix"></div>
+							</div>
+							<div class="agile">
+							   	<div class="test-grid">
+							   		<div class="col-md-8 test-grid1">
+										<p class="para-w3-agile"><i class="fa fa-quote-left"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.
+										Lorem ipsum dolor .</p>
+										<div class="test-info-w3ls">
+											<h4>Helen Tompson</h4>
+											<span>Lorem Ipsum</span>
+										</div>
+									</div>	
+									<div class="col-md-4 test-grid2">
+								
+									</div>
+								</div>	
+								<div class="clearfix"></div>
+							</div>	
+					</div>
+				</div>	
+		</div>
+	</div>
+</div>
+<!-- agile_testimonials -->
 
 <!--contact
 				<div class="contact-w3layouts" id="contact">
