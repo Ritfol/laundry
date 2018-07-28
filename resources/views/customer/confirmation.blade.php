@@ -41,8 +41,8 @@
                       <!-- For customer, return to Customer Dashboard -->
                       <!-- For tender, return to Tender Dashboard -->
 
-                      <a href="">
-                        <button type="button" class="btn btn-primary btn-block">Return to Home</button>
+                      <a href="{{ route('customer_dashboard') }}">
+                        <button type="button" class="btn btn-primary btn-block">Return to dashboard</button>
                       </a>
                       
                     </div>

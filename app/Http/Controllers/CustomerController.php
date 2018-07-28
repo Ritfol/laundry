@@ -24,9 +24,9 @@ class CustomerController extends Controller
 
         $customer = Auth::guard('customer')->user();
 
-        //dd($customer);
+        return view('frontend.email');
 
-        return view('customer.dashboard')->with('customer' , $customer);
+       // return view('customer.dashboard')->with('customer' , $customer);
     }
     public function toRegister()
     {
@@ -96,6 +96,8 @@ class CustomerController extends Controller
     public function login(Request $request)
     {
 
+       // dd($request->all());
+
         $validator = Validator::make($request->all() , [
             'email' => 'required|email',
             'password' => 'required'
@@ -109,7 +111,7 @@ class CustomerController extends Controller
         else
         {
 
-            if(Auth::guard('customer')->attempt(['email' => $request->email , 'password' => $request->password] ))
+            if(Auth::guard('customer')->attempt(['email' => $request->email , 'password' => $request->password] , $request->has('remember') ))
             {
                 return redirect()->route('customer_dashboard');
             }
@@ -138,7 +140,7 @@ class CustomerController extends Controller
             'confirmed' => false
         ]);
 
-        return redirect()->route('customer_orders');
+        return redirect()->route('confirmation');
     }
 
     public function orders()
@@ -148,6 +150,11 @@ class CustomerController extends Controller
 
         return view('customer.orders')->with('orders' , $orders);
 
+    }
+
+    public function toConfirmation()
+    {
+        return view('customer.confirmation');
     }
 
     public function logout()

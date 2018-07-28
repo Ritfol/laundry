@@ -75,6 +75,7 @@ Route::group(['prefix' => 'customer'] , function(){
         Route::get('/toOrder' , 'CustomerController@toOrder')->name('customer_toOrder');
         Route::post('/order' , 'CustomerController@order')->name('customer_order');
         Route::get('/orders' , 'CustomerController@orders')->name('customer_orders');
+        Route::get('/confirmation' , 'CustomerController@toConfirmation')->name('confirmation');
 
 
 

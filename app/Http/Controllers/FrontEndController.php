@@ -38,6 +38,11 @@ class FrontEndController extends Controller
 
     public function login()
     {
-        return view('frontend.login');
+        return view('frontend.choose-login');
+    }
+
+    public function toConfirmation()
+    {
+        return view('customer.confirmation');
     }
 }

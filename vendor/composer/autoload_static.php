@@ -278,6 +278,7 @@ class ComposerStaticInit41f22139ff93a7997666c62fb4550183
         'CreateAdminsTable' => __DIR__ . '/../..' . '/database/migrations/2018_07_18_070429_create_admins_table.php',
         'CreateCustomerOrdersTable' => __DIR__ . '/../..' . '/database/migrations/2018_07_20_054121_create_customer_orders_table.php',
         'CreateCustomersTable' => __DIR__ . '/../..' . '/database/migrations/2018_07_15_130403_create_customers_table.php',
+        'CreateExpressesTable' => __DIR__ . '/../..' . '/database/migrations/2018_07_28_083531_create_expresses_table.php',
         'CreatePasswordResetsTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_100000_create_password_resets_table.php',
         'CreateTenderOrdersTable' => __DIR__ . '/../..' . '/database/migrations/2018_07_20_054154_create_tender_orders_table.php',
         'CreateTendersTable' => __DIR__ . '/../..' . '/database/migrations/2018_07_15_130436_create_tenders_table.php',
