@@ -24,7 +24,9 @@ Route::get('/tenderServices' , 'FrontEndController@tenderServices')->name('tende
 Route::get('/contact' , 'FrontEndController@contact')->name('contact');
 Route::get('/signup' , 'FrontEndController@signup')->name('signup');
 Route::get('/login' , 'FrontEndController@login')->name('login');
-
+Route::get('/express' , 'FrontEndController@toExpress')->name('toExpress');
+Route::get('/confirmExpress' , 'FrontEndController@confirmExpress')->name('express_confirm');
+Route::post('/express' , 'FrontEndController@express')->name('express');
 
 
 /*
@@ -67,6 +69,11 @@ Route::group(['prefix' => 'customer'] , function(){
         Route::post('/login' , 'CustomerController@login')->name('customer_login');
         Route::get('/toRegister' , 'CustomerController@toRegister')->name('customer_toRegister');
         Route::post('/register' , 'CustomerController@register')->name('customer_register');
+
+        Route::post('/password/email' , 'Auth\CustomerForgotPasswordController@sendResetLinkEmail')->name('customer_password_email');
+        Route::get('/password/reset' , 'Auth\CustomerForgotPasswordController@showLinkRequestForm')->name('customer_password_request');
+        Route::post('/password/reset' , 'Auth\CustomerResetPasswordController@reset')->name('customer_password_reset');
+        Route::get('/password/reset/{token}' , 'Auth\CustomerResetPasswordController@showResetForm')->name('customer_reset_request');
 
     Route::group(['middleware' => 'customer'] , function(){
 
@@ -112,3 +119,7 @@ Route::group(['prefix' => 'tender'] , function(){
 });
 
 
+
+//Auth::routes();
+
+Route::get('/home', 'HomeController@index');

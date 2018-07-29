@@ -34,6 +34,8 @@
                      
                       <br>
                       <h3 style="text-align: center;">Thank you! Your request will be reviewed and you will be contacted as soon as possible!</h3>
+                        <br>
+                        {{--Please check your {{ $email }} mailbox--}}
                       <br><br>
 
                       <!-- Should go back to home page -->
@@ -41,7 +43,7 @@
                       <!-- For customer, return to Customer Dashboard -->
                       <!-- For tender, return to Tender Dashboard -->
 
-                      <a href="">
+                      <a href="{{ route('homepage') }}">
                         <button type="button" class="btn btn-primary btn-block">Return to Home</button>
                       </a>
                       

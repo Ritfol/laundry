@@ -7,7 +7,7 @@
         <div class="card card-login mx-auto mt-5">
             <div class="card-header">Normal user login</div>
             <div class="card-body">
-                <form action="{{ route('customer_login') }}" method="post">
+                <form action="{{ route('customer_password_reset') }}" method="post">
                     {{ csrf_field() }}
 
                     @if (count($errors) > 0)
@@ -20,26 +20,22 @@
                         </div>
                     @endif
 
+                    <input type="hidden" name="token" value="{{ $token }}">
+
                     <div class="form-group">
                         <label for="exampleInputEmail1">Email address</label>
                         <input class="form-control" name="email" value="{{ old('email') }}" id="exampleInputEmail1" type="email" aria-describedby="emailHelp" placeholder="Enter email">
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputPassword1">Password</label>
+                        <label for="exampleInputPassword1">New password</label>
                         <input class="form-control" name="password" id="exampleInputPassword1" type="password" placeholder="Password">
                     </div>
                     <div class="form-group">
-                        <div class="form-check">
-                            <label class="form-check-label">
-                                <input class="form-check-input" name="remember" type="checkbox"> Remember Password</label>
-                        </div>
+                        <label for="exampleInputPassword1">Confirm password</label>
+                        <input class="form-control" name="password_confirmation" id="exampleInputPassword1" type="password" placeholder="Password">
                     </div>
-                    <button class="btn btn-primary btn-block" type="submit">Login</button>
+                    <button class="btn btn-primary btn-block" type="submit">Reset password</button>
                 </form>
-                <div class="text-center">
-                    <a class="d-block small mt-3" href="{{ route('customer_toRegister') }}">Register an Account</a>
-                    <a class="d-block small" href="{{ route('customer_password_request') }}">Forgot Password?</a>
-                </div>
             </div>
         </div>
     </div>

@@ -24,9 +24,7 @@ class CustomerController extends Controller
 
         $customer = Auth::guard('customer')->user();
 
-        return view('frontend.email');
-
-       // return view('customer.dashboard')->with('customer' , $customer);
+        return view('customer.dashboard')->with('customer' , $customer);
     }
     public function toRegister()
     {
@@ -140,7 +138,7 @@ class CustomerController extends Controller
             'confirmed' => false
         ]);
 
-        return redirect()->route('confirmation');
+        return redirect()->route('customer_confirmation');
     }
 
     public function orders()

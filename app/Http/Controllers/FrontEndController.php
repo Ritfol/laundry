@@ -2,7 +2,12 @@
 
 namespace App\Http\Controllers;
 
+use App\Express;
+use App\Mail\OrderExpress;
 use Illuminate\Http\Request;
+use Illuminate\Mail\Mailer;
+use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\Session;
 
 class FrontEndController extends Controller
 {
@@ -41,8 +46,30 @@ class FrontEndController extends Controller
         return view('frontend.choose-login');
     }
 
+    public function toExpress()
+    {
+        return view('frontend.express');
+    }
+
+    public function express(Request $request , Mailer $mailer)
+    {
+        //dd($request->all());
+
+        $mailer->to($request->email)->send(new OrderExpress());
+
+        return redirect()->route('homepage');
+    }
+
+    public function confirmExpress()
+    {
+        $email = Session::get('email');
+        return view('frontend.confirmation')->with('email' , $email);
+    }
+
     public function toConfirmation()
     {
         return view('customer.confirmation');
     }
+
+
 }

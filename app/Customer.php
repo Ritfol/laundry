@@ -2,9 +2,11 @@
 
 namespace App;
 
+use App\Notifications\CustomerResetPasswordNotification;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Foundation\Auth\User as Authenticatable;
+use Illuminate\Contracts\Auth\CanResetPassword;
 
 class Customer extends Authenticatable
 {
@@ -27,6 +29,11 @@ class Customer extends Authenticatable
     public function orders()
     {
         return $this->hasMany(CustomerOrder::class);
+    }
+
+    public function sendPasswordResetNotification($token)
+    {
+        $this->notify(new CustomerResetPasswordNotification($token));
     }
 
 }

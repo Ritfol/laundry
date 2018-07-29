@@ -64,20 +64,21 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <h4 class="tittles-w3agileits">Express Qoute</h4>
             <div class="col-md-12 wthree_contact_left">
                 <h6>Send us a qoute. Please note that only 100 clothes are allowed</h6>
-                <form action="#" method="post">
+                <form action="{{ route('express') }}" method="post">
+                    {{ csrf_field() }}
                         <div class="col-md-6 wthree_contact_left_grid">
-                            <input type="text" name="Name" placeholder="Name" required="">
-                            <input type="email" name="Email" placeholder="Email" required="">
+                            <input type="text" name="name" placeholder="Name" required="">
+                            <input type="email" name="email" placeholder="Email" required="">
                         </div>
                         <div class="col-md-6 wthree_contact_left_grid">
-                            <input type="text" name="Phone" placeholder="Telephone" required="">
-                            <input type="text" name="Subject" placeholder="Subject">
+                            <input type="text" name="phone_number" placeholder="Telephone" required="">
+                            <input type="text" name="subject" placeholder="Subject">
                         </div>
                         <div class="col-md-12 wthree_contact_left_grid">
-                            <input type="text" name="Location" placeholder="Location" required="">
+                            <input type="text" name="location" placeholder="Location" required="">
                         </div>
                         <div class="clearfix"> </div>
-                        <textarea name="Description" placeholder="Location Description" ></textarea>
+                        <textarea name="location_description" placeholder="Location Description" ></textarea>
                         <input type="submit" value="Submit">
                         <input type="reset" value="Clear">
                     </form>

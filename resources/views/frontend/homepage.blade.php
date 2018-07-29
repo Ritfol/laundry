@@ -132,7 +132,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             <p>100 clothes</p>
                         </div>
                          <div class="buy-button">
-									<a class="popup-with-zoom-anim" href="">Order Now</a>
+									<a class="popup-with-zoom-anim" href="{{ route('toExpress') }}">Order Now</a>
 						</div>
                     </div>
                 </div>
