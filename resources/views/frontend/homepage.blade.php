@@ -147,7 +147,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </div>
 <!--// pricing-->
 
-<!-- agile_testimonials -->
+<!-- agile_testimonials --
 <div class="test">
 	<div class="container">
 	<div class="col-md-3 test-left-agileinfo">

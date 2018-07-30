@@ -70,8 +70,9 @@
        Your order has been placed!<br>
         You will be contacted by Quarters Laundry so that you may complete your payment and the service may start. <br>
         Please note that pick ups will only be done on the pickup days (either Wednesday or Saturday.)
-
+        <a href="{{ route('homepage') }}">
         <button type="button" class="btn btn-success">Return to Home</button>
+        </a>
     </div>
 </body>
 </html>
