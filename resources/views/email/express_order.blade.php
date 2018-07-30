@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Laravel</title>
+    <title>Quarters Laundry</title>
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
@@ -68,8 +68,10 @@
 <div class="flex-center position-ref full-height">
     <div class="content">
        Your order has been placed!<br>
-        Please complete the payment to confirm your subscription
+        You will be contacted by Quarters Laundry so that you may complete your payment and the service may start. <br>
+        Please note that pick ups will only be done on the pickup days (either Wednesday or Saturday.)
+
+        <button type="button" class="btn btn-success">Return to Home</button>
     </div>
-</div>
 </body>
 </html>
