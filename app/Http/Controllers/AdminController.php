@@ -76,7 +76,7 @@ class AdminController extends Controller
     {
         Auth::guard('admin')->logout();
 
-        return redirect()->route('admin_toLogin');
+        return redirect()->route('homepage');
     }
 
     public function customerList()

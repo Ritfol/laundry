@@ -19,6 +19,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </head>
 <body>
 <!-- header -->
+
 <div id="demo-1" data-zs-src='["images/4.jpg", "images/2.jpg", "images/1.jpg","images/3.jpg"]' data-zs-overlay="dots">
     <div class="demo-inner-content">
         <!--/header-w3l-->
@@ -120,23 +121,26 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</div>
                     </div>
                 </div>
-                <div class="col-md-4 pricing_inner_w3ls">
-                    <div class="pricing-top orange">
-                        <h3>Express</h3>
-                        <p>TZS<span>20,000</span>/Per 100 clothes</p>
-                    </div>
-                    <div class="pricing-bottom">
-                        <div class="pricing-bottom-bottom">
-                            <p>PickUp and Delivery</p>
-                            <p>Ironing</p>
-                            <p>100 clothes</p>
-                        </div>
-                         <div class="buy-button">
-									<a class="popup-with-zoom-anim" href="{{ route('toExpress') }}">Order Now</a>
-						</div>
-                    </div>
-                </div>
+                @if(auth()->guard('customer')->check() or auth()->guard('tender')->check() or auth()->guard('admin')->check())
 
+                    @else
+                    <div class="col-md-4 pricing_inner_w3ls">
+                        <div class="pricing-top orange">
+                            <h3>Express</h3>
+                            <p>TZS<span>20,000</span>/Per 100 clothes</p>
+                        </div>
+                        <div class="pricing-bottom">
+                            <div class="pricing-bottom-bottom">
+                                <p>PickUp and Delivery</p>
+                                <p>Ironing</p>
+                                <p>100 clothes</p>
+                            </div>
+                            <div class="buy-button">
+                                <a class="popup-with-zoom-anim" href="{{ route('toExpress') }}">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+                @endif
                 <div class="col-md-2"></div>
 
 

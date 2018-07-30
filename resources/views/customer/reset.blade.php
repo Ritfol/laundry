@@ -5,7 +5,7 @@
     <body class="bg-dark">
     <div class="container">
         <div class="card card-login mx-auto mt-5">
-            <div class="card-header">Normal user login</div>
+            <div class="card-header">User reset password</div>
             <div class="card-body">
                 <form action="{{ route('customer_password_reset') }}" method="post">
                     {{ csrf_field() }}

@@ -6,6 +6,7 @@ use App\Express;
 use App\Mail\OrderExpress;
 use Illuminate\Http\Request;
 use Illuminate\Mail\Mailer;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Session;
 
@@ -43,6 +44,7 @@ class FrontEndController extends Controller
 
     public function login()
     {
+
         return view('frontend.choose-login');
     }
 
@@ -57,13 +59,13 @@ class FrontEndController extends Controller
 
         $mailer->to($request->email)->send(new OrderExpress());
 
-        return redirect()->route('homepage');
+        return redirect()->route('express_confirm');
     }
 
     public function confirmExpress()
     {
-        $email = Session::get('email');
-        return view('frontend.confirmation')->with('email' , $email);
+        //$email = Session::get('email');
+        return view('frontend.confirmation');
     }
 
     public function toConfirmation()

@@ -4,7 +4,7 @@
                 <div class="col-md-3 footer-grids w3l-agileits">
                     <!---<h6><a href="index.html"><span class="f-letter">D</span>eterge<span class="f-square"></span></a></h6>
                     <h6><a href="index.html">The Quarters</h6>---->
-                            <img src="quarter logo.png" style="width:300px; height:150px;" alt="">
+                            <img src="{{ asset('public/quarter logo.png') }}" style="width:300px; height:150px;" alt="">
                 </div>
                 <div class="col-md-3 footer-grids w3l-agileits">
                     <!---<h3>Address</h3>
@@ -29,8 +29,16 @@
                         </ul>
                     </div>
                     <div class="bottons-agileits-w3layouts">
+                        @if(auth()->guard('customer')->check())
+                            <a class="btn1-w3-agileits" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-sign-in" aria-hidden="true"></i>Logout</a>
+                        @elseif(auth()->guard('tender')->check())
+                            <a class="btn1-w3-agileits" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-sign-in" aria-hidden="true"></i>Logout</a>
+                        @elseif(auth()->guard('admin')->check())
+                            <a class="btn1-w3-agileits" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-sign-in" aria-hidden="true"></i>Logout</a>
+                        @else
                         <a class="btn1-w3-agileits" href="{{ route('login') }}"><i class="fa fa-sign-in" aria-hidden="true"></i>Login</a>.
                         <a class="btn2-w3-agileits" href="{{ route('signup') }}"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Sign up</a>
+                        @endif
                     </div>
                     <div class="clearfix"></div>
                 </div>
@@ -42,6 +50,31 @@
                         <p>info@quarterslaundry.com</p>
                 </div>
                 <div class="clearfix"> </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Logout Modal-->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                    @if(auth()->guard('customer')->check())
+                        <a class="btn1-w3-agileits" href="{{ route('customer_logout') }}"><i class="fa fa-sign-in" aria-hidden="true"></i>Logout</a>
+                    @elseif(auth()->guard('tender')->check())
+                        <a class="btn1-w3-agileits" href="{{ route('tender_logout') }}"><i class="fa fa-sign-in" aria-hidden="true"></i>Logout</a>
+                    @elseif(auth()->guard('admin')->check())
+                        <a class="btn1-w3-agileits" href="{{ route('admin_logout') }}"><i class="fa fa-sign-in" aria-hidden="true"></i>Logout</a>
+                    @endif
+                </div>
             </div>
         </div>
     </div>

@@ -36,4 +36,11 @@ class Customer extends Authenticatable
         $this->notify(new CustomerResetPasswordNotification($token));
     }
 
+    public function isCustomer($user)
+    {
+        if ( $user instanceof Customer)
+            return true;
+        else
+            return false;
+    }
 }

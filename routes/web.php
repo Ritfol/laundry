@@ -40,6 +40,11 @@ Route::group(['prefix' => 'admin'] , function (){
         Route::get('/toLogin' , 'AdminController@toLogin')->name('admin_toLogin');
         Route::post('/login' , 'AdminController@login')->name('admin_login');
 
+        Route::post('/password/email' , 'Auth\AdminForgotPasswordController@sendResetLinkEmail')->name('admin_password_email');
+        Route::get('/password/reset' , 'Auth\AdminForgotPasswordController@showLinkRequestForm')->name('admin_password_request');
+        Route::post('/password/reset' , 'Auth\AdminResetPasswordController@reset')->name('admin_password_reset');
+        Route::get('/password/reset/{token}' , 'Auth\AdminResetPasswordController@showResetForm')->name('admin_reset_request');
+
 
     Route::group(['middleware' => 'admin'] , function(){
         Route::get('/customer/list' , 'AdminController@customerList')->name('customer_list');
@@ -82,7 +87,7 @@ Route::group(['prefix' => 'customer'] , function(){
         Route::get('/toOrder' , 'CustomerController@toOrder')->name('customer_toOrder');
         Route::post('/order' , 'CustomerController@order')->name('customer_order');
         Route::get('/orders' , 'CustomerController@orders')->name('customer_orders');
-        Route::get('/confirmation' , 'CustomerController@toConfirmation')->name('confirmation');
+        Route::get('/confirmation' , 'CustomerController@toConfirmation')->name('customer_confirmation');
 
 
 
@@ -107,6 +112,10 @@ Route::group(['prefix' => 'tender'] , function(){
         Route::post('/login' , 'TenderController@login')->name('tender_login');
         Route::get('/toRegister' , 'TenderController@toRegister')->name('tender_toRegister');
         Route::post('/register' , 'TenderController@register')->name('tender_register');
+        Route::post('/password/email' , 'Auth\TenderForgotPasswordController@sendResetLinkEmail')->name('tender_password_email');
+        Route::get('/password/reset' , 'Auth\TenderForgotPasswordController@showLinkRequestForm')->name('tender_password_request');
+        Route::post('/password/reset' , 'Auth\TenderResetPasswordController@reset')->name('tender_password_reset');
+        Route::get('/password/reset/{token}' , 'Auth\TenderResetPasswordController@showResetForm')->name('tender_reset_request');
 
     Route::group(['middleware' => 'tender'] , function(){
         Route::get('/dashboard' , 'TenderController@index')->name('tender_dashboard');

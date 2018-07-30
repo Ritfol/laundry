@@ -7,9 +7,10 @@ use Illuminate\Notifications\Notification;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Notifications\Messages\MailMessage;
 
-class CustomerResetPasswordNotification extends Notification
+class AdminResetPasswordNotification extends Notification
 {
     use Queueable;
+
     public $token;
 
     /**
@@ -42,9 +43,9 @@ class CustomerResetPasswordNotification extends Notification
     public function toMail($notifiable)
     {
         return (new MailMessage)
-                    ->line('This email is to enable you to reset your password as you requested.')
-                    ->action('Reset Password' , route('customer_reset_request' , $this->token))
-                    ->line('If you did not request a password request, please ignore this email!');
+            ->line('This email is to enable you to reset your password as you requested.')
+            ->action('Reset Password' , route('admin_reset_request' , $this->token))
+            ->line('If you did not request a password request, please ignore this email!');
     }
 
     /**
