@@ -31,10 +31,13 @@
                     <div class="bottons-agileits-w3layouts">
                         @if(auth()->guard('customer')->check())
                             <a class="btn1-w3-agileits" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-sign-in" aria-hidden="true"></i>Logout</a>
+                            <a href="{{ route('customer_dashboard') }}"><i class="fa fa-sign-in" aria-hidden="true"></i>Dashboard</a>
                         @elseif(auth()->guard('tender')->check())
                             <a class="btn1-w3-agileits" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-sign-in" aria-hidden="true"></i>Logout</a>
+                            <a href="{{ route('tender_dashboard') }}"><i class="fa fa-sign-in" aria-hidden="true"></i>Dashboard</a>
                         @elseif(auth()->guard('admin')->check())
                             <a class="btn1-w3-agileits" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-sign-in" aria-hidden="true"></i>Logout</a>
+                            <a href="{{ route('admin_dashboard') }}"><i class="fa fa-sign-in" aria-hidden="true"></i>Dashboard</a>
                         @else
                         <a class="btn1-w3-agileits" href="{{ route('login') }}"><i class="fa fa-sign-in" aria-hidden="true"></i>Login</a>.
                         <a class="btn2-w3-agileits" href="{{ route('signup') }}"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Sign up</a>
@@ -83,11 +86,11 @@
         <div class="copyright-wthree">
             <div class="container">
                 <ul class="b-nav">
-                    <li><a href="index.php">Home</a></li>
-                    <li><a href="about.php" >About</a></li>
-                    <li><a href="services.php">Services</a></li>
-                    <li><a href="tender-service.php">Tender Services</a></li>
-                    <li><a href="contact.php">Contact</a></li>
+                    <li><a href="{{ route('homepage') }}">Home</a></li>
+                    <li><a href="{{ route('about') }}" >About</a></li>
+                    <li><a href="{{ route('services') }}">Services</a></li>
+                    <li><a href="{{ route('tender_services') }}">Tender Services</a></li>
+                    <li><a href="{{ route('contact') }}">Contact</a></li>
                 </ul>
                 <p>&copy; <?php echo date("Y");?> Morier Group Ltd. All Rights Reserved</p>
             </div>

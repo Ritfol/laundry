@@ -116,9 +116,22 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             <br/>
                             <p><span>Once per Week</span></p>
                        </div>
-                       <div class="buy-button">
-									<a class="popup-with-zoom-anim" href="{{ route('login') }}">Subscribe Now</a>
-						</div>
+                        {{--<div class="buy-button">--}}
+                            {{--<a class="popup-with-zoom-anim" href="{{ route('customer_toOrder') }}">Subscribe Now</a>--}}
+                        {{--</div>--}}
+                        @if(auth()->guard('customer')->check())
+                            <div class="buy-button">
+                                <a class="popup-with-zoom-anim" href="{{ route('customer_toOrder') }}">Subscribe Now</a>
+                            </div>
+                        @elseif(auth()->guard('tender')->check())
+                            <div class="buy-button">
+                                <a class="popup-with-zoom-anim" href="{{ route('tender_toOrder') }}">Subscribe Now</a>
+                            </div>
+                        @else
+                                <div class="buy-button">
+                                    <a class="popup-with-zoom-anim" href="{{ route('login') }}">Subscribe Now</a>
+                                </div>
+                        @endif
                     </div>
                 </div>
                 @if(auth()->guard('customer')->check() or auth()->guard('tender')->check() or auth()->guard('admin')->check())
