@@ -8,6 +8,7 @@
 <!-- Pricing-CSS --><link rel="stylesheet" href="{{ asset('/css/latestpricing.css') }}" type="text/css" media="all" /> 
 <!-- Front-page-Contact-Form-CSS --><link href="{{ asset('/css/try.css') }}" rel="stylesheet" type="text/css" media="all" />
 <!-- Responsive-CSS --><link href="{{ asset('/css/responsive.css') }}" rel="stylesheet" type="text/css" media="all" />
+<!-- Font awesome CDN--> <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <!-- //Custom-Stylesheet-Links -->
 <!--web-fonts-->
 <!-- Logo-font --><link href="//fonts.googleapis.com/css?family=Hind+Vadodara:300,400,500,600,700" rel="stylesheet">
