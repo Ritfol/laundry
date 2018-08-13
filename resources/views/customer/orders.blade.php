@@ -28,7 +28,7 @@
                             <tr>
                                 <th>City</th>
                                 <th>Location Description</th>
-                                <th>Package</th>
+                                {{--<th>Package</th>--}}
                                 <th>Begins</th>
                                 <th>Ends</th>
                                 <th>Confirmed</th>
@@ -39,7 +39,7 @@
 
                                 <th>City</th>
                                 <th>Location Description</th>
-                                <th>Package</th>
+                                {{--<th>Package</th>--}}
                                 <th>Begins</th>
                                 <th>Ends</th>
                                 <th>Confirmed</th>
@@ -50,7 +50,7 @@
                             <tr>
                                 <td>{{ Auth::guard('customer')->user()->city }}</td>
                                 <td>{{ Auth::guard('customer')->user()->location_description }}</td>
-                                <td>{{ $order->package }}</td>
+                                {{--<td>{{ $order->package }}</td>--}}
                                 <td>{{ $order->begin }}</td>
                                 <td>{{ $order->end }}</td>
                                 <td>@if($order->confirmed) <span class="alert alert-success">Confirmed</span>

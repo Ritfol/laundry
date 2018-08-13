@@ -17,15 +17,17 @@
                     <form action="{{ route('customer_order') }}" method="POST" role="form">
                         {{ csrf_field() }}
 
-                        <legend>Add new subscription</legend>
-                        <div class="form-group">
-                            <label for="package">Add package</label>
-                            <select name="package" id="input" class="form-control" required="required">
+                        <input type="hidden" name="package" value="Per Person">
+
+                        {{--<legend>Add new subscription</legend>--}}
+                        {{--<div class="form-group">--}}
+                            {{--<label for="package">Add package</label>--}}
+                            {{--<select name="package" id="input" class="form-control" required="required">--}}
                                 {{--<option>--- Please select your package ---</option>--}}
-                                <option value="Per Person">Per Person</option>
-                                <option value="Per Student">Per Student</option>
-                            </select>
-                        </div>
+                                {{--<option value="Per Person">Per Person</option>--}}
+                                {{--<option value="Per Student">Per Student</option>--}}
+                            {{--</select>--}}
+                        {{--</div>--}}
 
                         <div class="form-group">
                             <label for="begin">Desired start date</label>
