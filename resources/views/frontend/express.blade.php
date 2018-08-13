@@ -72,7 +72,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         </div>
                         <div class="col-md-6 wthree_contact_left_grid">
                             <input type="text" name="phone_number" placeholder="Telephone" required="">
-                            <input type="text" name="subject" placeholder="Subject">
+                           
                         </div>
                         <div class="col-md-12 wthree_contact_left_grid">
                             <input type="text" name="location" placeholder="Location" required="">
