@@ -5,7 +5,7 @@
 <!-- Owl-carousel-CSS --><link href="{{ asset('/css/owl.carousel.css') }}" rel="stylesheet">
 <!-- Index-Page-CSS --><link href="{{ asset('/css/style.css') }}" rel="stylesheet" type="text/css" media="all" />
 <!-- about-top-CSS --><link href="{{ asset('/css/ziehharmonika.css') }}" rel="stylesheet" type="text/css">
-<!-- Pricing-CSS --><link href="{{ asset('/css/pricing.css') }}" rel="stylesheet" type="text/css" media="all" />
+<!-- Pricing-CSS --><link rel="stylesheet" href="{{ asset('/css/latestpricing.css') }}" type="text/css" media="all" /> 
 <!-- Front-page-Contact-Form-CSS --><link href="{{ asset('/css/try.css') }}" rel="stylesheet" type="text/css" media="all" />
 <!-- Responsive-CSS --><link href="{{ asset('/css/responsive.css') }}" rel="stylesheet" type="text/css" media="all" />
 <!-- //Custom-Stylesheet-Links -->

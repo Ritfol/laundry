@@ -26,7 +26,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <div class="header-w3-agileits" id="home">
             <div class="w3-header-bottom">
                 <div class="container">
-                    <div class="row">
+                    <div class="row"> 
                         <div class="col-md-4 col-sm-4"></div>
                         <div class="col-md-4 col-sm-4">
                             <img src="{{ asset('/quarter logo.png') }}" style="width:300px; height:150px;" align="middle" alt="">
@@ -94,7 +94,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     </div>
 </div>
 
-<<<<<<< HEAD
 					<!-- pricing plans -->
 			<div class="pricing">
 				<div class="w3l-pricing-grids">
@@ -143,77 +142,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 			</div>
 			<!-- //pricing plans -->
-=======
-<!--Pricing-->
-<div class="pricing" id="pricing">
-    <div class="container">
-        <h3 class="w3l_header w3_agileits_header two"><span>Packages</span></h3>
-        <div class="agile_wthree_inner_grids">
-            <div class="pring_agile_its w3-agile">
-
-                <div class="col-md-2"></div>
-
-                <div class="col-md-4 pricing_inner_w3ls">
-                    <div class="pricing-top">
-                        <h3>Standard</h3>
-                        <p>TZS<span>25,000</span>/Per month</p>
-                    </div>
-                    <div class="pricing-bottom">
-                        <div class="pricing-bottom-bottom">
-                            <p>Pickup and Delivery</p>
-                            <p>Ironing</p>
-                            <p>Weekly bundle of clothes</p>
-                            <br/>
-                            <p><span>Once per Week</span></p>
-                       </div>
-                        {{--<div class="buy-button">--}}
-                            {{--<a class="popup-with-zoom-anim" href="{{ route('customer_toOrder') }}">Subscribe Now</a>--}}
-                        {{--</div>--}}
-                        @if(auth()->guard('customer')->check())
-                            <div class="buy-button">
-                                <a class="popup-with-zoom-anim" href="{{ route('customer_toOrder') }}">Subscribe Now</a>
-                            </div>
-                        @elseif(auth()->guard('tender')->check())
-                            <div class="buy-button">
-                                <a class="popup-with-zoom-anim" href="{{ route('tender_toOrder') }}">Subscribe Now</a>
-                            </div>
-                        @else
-                                <div class="buy-button">
-                                    <a class="popup-with-zoom-anim" href="{{ route('login') }}">Subscribe Now</a>
-                                </div>
-                        @endif
-                    </div>
-                </div>
-                @if(auth()->guard('customer')->check() or auth()->guard('tender')->check() or auth()->guard('admin')->check())
-
-                    @else
-                    <div class="col-md-4 pricing_inner_w3ls">
-                        <div class="pricing-top orange">
-                            <h3>Express</h3>
-                            <p>TZS<span>20,000</span>/Per 100 clothes</p>
-                        </div>
-                        <div class="pricing-bottom">
-                            <div class="pricing-bottom-bottom">
-                                <p>PickUp and Delivery</p>
-                                <p>Ironing</p>
-                                <p>100 clothes</p>
-                            </div>
-                            <div class="buy-button">
-                                <a class="popup-with-zoom-anim" href="{{ route('toExpress') }}">Order Now</a>
-                            </div>
-                        </div>
-                    </div>
-                @endif
-                <div class="col-md-2"></div>
-
-
-                <div class="clearfix"></div>
-            </div>
-        </div>
-    </div>
-</div>
-<!--// pricing-->
->>>>>>> a4ee1e95ae46e71a33ab4377f71c765713fa75fc
 
 <!-- agile_testimonials --
 <div class="test">
