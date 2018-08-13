@@ -12,9 +12,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         function hideURLbar(){ window.scrollTo(0,1); } </script>
     <!-- //Meta-Tags -->
     <!-- Custom-Stylesheet-Links -->
-    <!-- Bootstrap-CSS --> <link href="{{ asset('public/css/bootstrap.css') }}" rel="stylesheet" type="text/css" media="all" />
-    <!-- Font-awesome-CSS --> <link href="{{ asset('public/css/font-awesome.css ') }}" rel="stylesheet">
-    <!-- Index-Page-CSS --><link href="{{ asset('public/css/style.css') }}" rel="stylesheet" type="text/css" media="all" />
+    <!-- Bootstrap-CSS --> <link href="{{ asset('/css/bootstrap.css') }}" rel="stylesheet" type="text/css" media="all" />
+    <!-- Font-awesome-CSS --> <link href="{{ asset('/css/font-awesome.css ') }}" rel="stylesheet">
+    <!-- Index-Page-CSS --><link href="{{ asset('/css/style.css') }}" rel="stylesheet" type="text/css" media="all" />
     <!-- //Custom-Stylesheet-Links -->
     <!--web-fonts-->
     <!-- Logo-font --><link href="//fonts.googleapis.com/css?family=Hind+Vadodara:300,400,500,600,700" rel="stylesheet">
@@ -34,7 +34,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <div class="container">
                     <!---	<h1><a href="index.html"><span class="letter">D</span>eterge<span class="square"></span></a></h1>	--->
                     <!------------	<h1><a href="index.php">The Quarters</a></h1>----------------->
-                    <img src="{{ asset('public/quarter logo.png') }}" style="width:300px; height:150px;" alt="">
+                    <img src="{{ asset('/quarter logo.png') }}" style="width:300px; height:150px;" alt="">
                     <!----	<div class="header-w3-top">
                             <div class="agileinfo-phone">
                             <div class="phone-wthree-left">
@@ -68,7 +68,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     <div class="agile_services_grid">
                         <div class="hover06 column">
                             <div>
-                                <figure><img src="{{ asset('public/images/a1.jpg') }}" alt=" " class="img-responsive" /></figure>
+                                <figure><img src="{{ asset('/images/a1.jpg') }}" alt=" " class="img-responsive" /></figure>
                             </div>
                         </div>
                         <div class="agile_services_grid_pos">
@@ -82,7 +82,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     <div class="agile_services_grid">
                         <div class="hover06 column">
                             <div>
-                                <figure><img src="{{ asset('public/images/alpha2.jpg') }}" alt=" " class="img-responsive"  /></figure>
+                                <figure><img src="{{ asset('/images/alpha2.jpg') }}" alt=" " class="img-responsive"  /></figure>
                             </div>
                         </div>
                         <div class="agile_services_grid_pos">
@@ -96,7 +96,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     <div class="agile_services_grid">
                         <div class="hover06 column">
                             <div>
-                                <figure><img src="{{ asset('public/images/a3.jpg') }}" alt=" " class="img-responsive" /></figure>
+                                <figure><img src="{{ asset('/images/a3.jpg') }}" alt=" " class="img-responsive" /></figure>
                             </div>
                         </div>
                         <div class="agile_services_grid_pos">
@@ -112,7 +112,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     <div class="agile_services_grid">
                         <div class="hover06 column">
                             <div>
-                                <figure><img src="{{ asset('public/images/a4.jpg') }}" alt=" " class="img-responsive" /></figure>
+                                <figure><img src="{{ asset('/images/a4.jpg') }}" alt=" " class="img-responsive" /></figure>
                             </div>
                         </div>
                         <div class="agile_services_grid_pos">
@@ -126,7 +126,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     <div class="agile_services_grid">
                         <div class="hover06 column">
                             <div>
-                                <figure><img src="{{ asset('public/images/bucket.jpg') }}" alt=" " class="img-responsive" /></figure>
+                                <figure><img src="{{ asset('/images/bucket.jpg') }}" alt=" " class="img-responsive" /></figure>
                             </div>
                         </div>
                         <div class="agile_services_grid_pos">
@@ -140,7 +140,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     <div class="agile_services_grid">
                         <div class="hover06 column">
                             <div>
-                                <figure><img src="{{ asset('public/images/pickup.jpg') }}" alt=" " class="img-responsive" /></figure>
+                                <figure><img src="{{ asset('/images/pickup.jpg') }}" alt=" " class="img-responsive" /></figure>
                             </div>
                         </div>
                         <div class="agile_services_grid_pos">
@@ -290,10 +290,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- //modal -->
 <a href="#home" class="scroll" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 <!-- //smooth scrolling -->
-<script type="text/javascript" src="{{ asset('public/js/jquery-2.1.4.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('/js/jquery-2.1.4.min.js') }}"></script>
 <!-- start-smoth-scrolling -->
-<script type="text/javascript" src="{{ asset('public/js/move-top.js') }}"></script>
-<script type="text/javascript" src="{{ asset('public/js/easing.js') }}"></script>
+<script type="text/javascript" src="{{ asset('/js/move-top.js') }}"></script>
+<script type="text/javascript" src="{{ asset('/js/easing.js') }}"></script>
 <script type="text/javascript">
     jQuery(document).ready(function($) {
         $(".scroll").click(function(event){
@@ -321,7 +321,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </script>
 <!-- //here ends scrolling icon -->
 <!--js for bootstrap working-->
-<script src="{{ asset('public/js/bootstrap.js') }}"></script>
+<script src="{{ asset('/js/bootstrap.js') }}"></script>
 <!-- //for bootstrap working -->
 </body>
 </html>

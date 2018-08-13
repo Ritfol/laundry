@@ -26,7 +26,7 @@
                           <div class="col"></div>
                           <div class="col">
                             <!-- Green tick image -->
-                            <img src="{{ asset('public/images/confirmation.png') }}">
+                            <img src="{{ asset('/images/confirmation.png') }}">
 
                           </div>
                           <div class="col"></div>

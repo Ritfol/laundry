@@ -6,11 +6,11 @@
     <meta name="author" content="">
     <title>Quarters Laundry</title>
     <!-- Bootstrap core CSS-->
-    <link href="{{ asset('public/vendor2/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('/vendor2/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
     <!-- Custom fonts for this template-->
-    <link href="{{ asset('public/vendor2/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ asset('/vendor2/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet" type="text/css">
     <!-- Page level plugin CSS-->
-    <link href="{{ asset('public/vendor2/datatables/dataTables.bootstrap4.css') }}" rel="stylesheet">
+    <link href="{{ asset('/vendor2/datatables/dataTables.bootstrap4.css') }}" rel="stylesheet">
     <!-- Custom styles for this template-->
-    <link href="{{ asset('public/css/sb-admin.css') }}" rel="stylesheet">
+    <link href="{{ asset('/css/sb-admin.css') }}" rel="stylesheet">
 </head>

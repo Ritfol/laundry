@@ -12,10 +12,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         function hideURLbar(){ window.scrollTo(0,1); } </script>
     <!-- //Meta-Tags -->
     <!-- Custom-Stylesheet-Links -->
-    <!-- Bootstrap-CSS --> <link href="{{ asset('public/css/bootstrap.css') }}" rel="stylesheet" type="text/css" media="all" />
-    <!-- Font-awesome-CSS --> <link href="{{ asset('public/css/font-awesome.css') }}" rel="stylesheet">
-    <!-- about-top-CSS --><link href="{{ asset('public/css/ziehharmonika.css') }}" rel="stylesheet" type="text/css">
-    <!-- Index-Page-CSS --><link href="{{ asset('public/css/style.css') }}" rel="stylesheet" type="text/css" media="all" />
+    <!-- Bootstrap-CSS --> <link href="{{ asset('/css/bootstrap.css') }}" rel="stylesheet" type="text/css" media="all" />
+    <!-- Font-awesome-CSS --> <link href="{{ asset('/css/font-awesome.css') }}" rel="stylesheet">
+    <!-- about-top-CSS --><link href="{{ asset('/css/ziehharmonika.css') }}" rel="stylesheet" type="text/css">
+    <!-- Index-Page-CSS --><link href="{{ asset('/css/style.css') }}" rel="stylesheet" type="text/css" media="all" />
     <!-- //Custom-Stylesheet-Links -->
     <!--web-fonts-->
     <!-- Logo-font --><link href="//fonts.googleapis.com/css?family=Hind+Vadodara:300,400,500,600,700" rel="stylesheet">
@@ -36,7 +36,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     <div class="row">
                         <div class="col-md-4 col-sm-4"></div>
                         <div class="col-md-4 col-sm-4">
-                            <img src="{{ asset('public/quarter logo.png') }}" style="width:300px; height:150px;" align="middle" alt="">
+                            <img src="{{ asset('/quarter logo.png') }}" style="width:300px; height:150px;" align="middle" alt="">
                         </div>
                         <div class="col-md-4 col-sm-4"></div>
                     </div><br>
@@ -65,19 +65,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <div class="col-md-4">
                 <h3>Event Decor</h3>
                 <p>&nbsp;</p>
-                <img src="{{ asset('public/images/tender/1.jpeg') }}">
+                <img src="{{ asset('/images/tender/1.jpeg') }}">
             </div>
 
             <div class="col-md-4 col-xs-12 col-lg-4">
                 <h3>Corporate Personel</h3>
                 <p>&nbsp;</p>
-                <img src="{{ asset('public/images/tender/2.jpeg') }}">
+                <img src="{{ asset('/images/tender/2.jpeg') }}">
             </div>
 
             <div class="col-md-4 col-xs-12 col-lg-4">
                 <h3>Schools</h3>
                 <p>&nbsp;</p>
-                <img src="{{ asset('public/images/tender/3.jpeg') }}">
+                <img src="{{ asset('/images/tender/3.jpeg') }}">
             </div>
         </div>
         <br/>
@@ -85,13 +85,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <div class="col-md-4 col-xs-12 col-lg-4">
                 <h3>Hotels</h3>
                 <p>&nbsp;</p>
-                <img src="{{ asset('public/images/tender/6.jpeg') }}">
+                <img src="{{ asset('/images/tender/6.jpeg') }}">
             </div>
 
             <div class="col-md-4 col-xs-12 col-lg-4">
                 <h3>Hospitals</h3>
                 <p>&nbsp;</p>
-                <img src="{{ asset('public/images/tender/7.jpeg') }}">
+                <img src="{{ asset('/images/tender/7.jpeg') }}">
             </div>
 
         </div>
@@ -179,7 +179,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
                 <h4><span>D</span>eterge</h4>
-                <img src="{{ asset('public/images/1.jpg') }}" alt=" " class="img-responsive">
+                <img src="{{ asset('/images/1.jpg') }}" alt=" " class="img-responsive">
                 <h3 class="sub-tittle-agileits">About Our Favorite <span>Laundromat</span> Company</h3>
                 <p class="para-w3-agile">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus justo in felis tristique mollis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent in dapibus odio, cursus sollicitudin leo. Sed eu velit diam. Nam vitae tincidunt nisi.Vestibulum egestas justo quis enim varius condimentum.</p>
             </div>
@@ -403,8 +403,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- //modal -->
 <a href="#home" class="scroll" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 <!-- //smooth scrolling -->
-<script type="text/javascript" src="{{ asset('public/js/jquery-2.1.4.min.js') }}"></script>
-<script src="{{ asset('public/js/ziehharmonika.js') }}"></script>
+<script type="text/javascript" src="{{ asset('/js/jquery-2.1.4.min.js') }}"></script>
+<script src="{{ asset('/js/ziehharmonika.js') }}"></script>
 <script>
     $(document).ready(function() {
         $('.ziehharmonika').ziehharmonika({
@@ -415,8 +415,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </script>
 
 <!-- start-smoth-scrolling -->
-<script type="text/javascript" src="{{ asset('public/js/move-top.js') }}"></script>
-<script type="text/javascript" src="{{ asset('public/js/easing.js') }}"></script>
+<script type="text/javascript" src="{{ asset('/js/move-top.js') }}"></script>
+<script type="text/javascript" src="{{ asset('/js/easing.js') }}"></script>
 <script type="text/javascript">
     jQuery(document).ready(function($) {
         $(".scroll").click(function(event){
@@ -444,10 +444,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </script>
 <!-- //here ends scrolling icon -->
 <!-- Starts-Number-Scroller-Animation-JavaScript -->
-<script type="text/javascript" src="{{ asset('public/js/numscroller-1.0.js') }}"></script>
+<script type="text/javascript" src="{{ asset('/js/numscroller-1.0.js') }}"></script>
 <!-- //Starts-Number-Scroller-Animation-JavaScript -->
 <!--js for bootstrap working-->
-<script src="{{ asset('public/js/bootstrap.js') }}"></script>
+<script src="{{ asset('/js/bootstrap.js') }}"></script>
 <!-- //for bootstrap working -->
 </body>
 </html>

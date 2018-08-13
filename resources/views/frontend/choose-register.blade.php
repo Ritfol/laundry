@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-      <link href="{{ asset('public/vendor2/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+      <link href="{{ asset('/vendor2/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
 
     <title>Quarters Laundry</title>
   </head>

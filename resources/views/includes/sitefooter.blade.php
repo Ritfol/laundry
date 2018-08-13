@@ -4,7 +4,7 @@
                 <div class="col-md-3 footer-grids w3l-agileits">
                     <!---<h6><a href="index.html"><span class="f-letter">D</span>eterge<span class="f-square"></span></a></h6>
                     <h6><a href="index.html">The Quarters</h6>---->
-                            <img src="{{ asset('public/quarter logo.png') }}" style="width:300px; height:150px;" alt="">
+                            <img src="{{ asset('/quarter logo.png') }}" style="width:300px; height:150px;" alt="">
                 </div>
                 <div class="col-md-3 footer-grids w3l-agileits">
                     <!---<h3>Address</h3>

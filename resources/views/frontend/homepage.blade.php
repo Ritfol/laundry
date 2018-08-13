@@ -29,7 +29,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     <div class="row">
                         <div class="col-md-4 col-sm-4"></div>
                         <div class="col-md-4 col-sm-4">
-                            <img src="{{ asset('public/quarter logo.png') }}" style="width:300px; height:150px;" align="middle" alt="">
+                            <img src="{{ asset('/quarter logo.png') }}" style="width:300px; height:150px;" align="middle" alt="">
                         </div>
                         <div class="col-md-4 col-sm-4"></div>
                     </div><br>
@@ -94,62 +94,54 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     </div>
 </div>
 
-<!--Pricing-->
-<div class="pricing" id="pricing">
-    <div class="container">
-        <h3 class="w3l_header w3_agileits_header two"><span>Packages</span></h3>
-        <div class="agile_wthree_inner_grids">
-            <div class="pring_agile_its w3-agile">
-
-                <div class="col-md-2"></div>
-
-                <div class="col-md-4 pricing_inner_w3ls">
-                    <div class="pricing-top">
-                        <h3>Standard</h3>
-                        <p>TZS<span>25,000</span>/Per month</p>
-                    </div>
-                    <div class="pricing-bottom">
-                        <div class="pricing-bottom-bottom">
-                            <p>Pickup and Delivery</p>
-                            <p>Ironing</p>
-                            <p>Weekly bundle of clothes</p>
-                            <br/>
-                            <p><span>Once per Week</span></p>
-                       </div>
-                       <div class="buy-button">
+					<!-- pricing plans -->
+			<div class="pricing">
+				<div class="w3l-pricing-grids">
+					<div class="agileits-pricing-grid first">
+						<div class="pricing_grid">
+							<div class="wthree-pricing-info pricing-top">
+								<h3>Standard</h3>
+								<p>TZS<span style="color:white;">25,000</span>/Per month</p>
+							</div>
+							<div class="pricing-bottom">
+								<div class="pricing-bottom-bottom">
+									<p><span>Pickup and Delivery<span></p>
+									<p><span>Ironing</span></p>
+									<p><span>Weekly bundle of clothes</span></p>  
+									<br>
+									<p><span>Once per Week</span></p>
+								</div>
+								<div class="buy-button">
 									<a class="popup-with-zoom-anim" href="{{ route('login') }}">Subscribe Now</a>
+								</div>
+							</div>
 						</div>
-                    </div>
-                </div>
-                @if(auth()->guard('customer')->check() or auth()->guard('tender')->check() or auth()->guard('admin')->check())
-
-                    @else
-                    <div class="col-md-4 pricing_inner_w3ls">
-                        <div class="pricing-top orange">
-                            <h3>Express</h3>
-                            <p>TZS<span>20,000</span>/Per 100 clothes</p>
-                        </div>
-                        <div class="pricing-bottom">
-                            <div class="pricing-bottom-bottom">
-                                <p>PickUp and Delivery</p>
-                                <p>Ironing</p>
-                                <p>100 clothes</p>
-                            </div>
-                            <div class="buy-button">
-                                <a class="popup-with-zoom-anim" href="{{ route('toExpress') }}">Order Now</a>
-                            </div>
-                        </div>
-                    </div>
-                @endif
-                <div class="col-md-2"></div>
-
-
-                <div class="clearfix"></div>
-            </div>
-        </div>
-    </div>
-</div>
-<!--// pricing-->
+					</div>
+				
+					
+					<div class="agileits-pricing-grid fourth">
+						<div class="pricing_grid">
+							<div class="wthree-pricing-info pricing-top yellow-top">
+								<h3>Express</h3>
+								<p>TZS<span style="color:white;">25,000</span>/Per 100 clothes</p>
+							</div>
+							<div class="pricing-bottom">
+								<div class="pricing-bottom-bottom yellow-pricing-bottom-top">
+									<p><span>Pickup and Delivery<span></p>
+									<p><span>Ironing</span></p>
+									<p><span>100 clothes</span></p>  
+									<br>
+									<p><span>Once per Week</span></p>
+								</div>
+								<div class="buy-button">
+									<a class="popup-with-zoom-anim" href="{{ route('toExpress') }}">Order Now</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- //pricing plans -->
 
 <!-- agile_testimonials --
 <div class="test">
@@ -349,7 +341,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
                 <h4><span>D</span>eterge</h4>
-                <img src="{{ asset('public/images/1.jpg') }}" alt=" " class="img-responsive">
+                <img src="{{ asset('/images/1.jpg') }}" alt=" " class="img-responsive">
                 <h3 class="sub-tittle-agileits">About Our Favorite <span>Laundromat</span> Company</h3>
                 <p class="para-w3-agile">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus justo in felis tristique mollis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent in dapibus odio, cursus sollicitudin leo. Sed eu velit diam. Nam vitae tincidunt nisi.Vestibulum egestas justo quis enim varius condimentum.</p>
             </div>
@@ -523,11 +515,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- //modal -->
 <a href="#home" class="scroll" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 <!-- //smooth scrolling -->
-<script type="text/javascript" src="{{ asset('public/js/jquery-2.1.4.min.js') }}"></script>
-<script type="text/javascript" src="{{ asset('public/js/modernizr-2.6.2.min.js') }}"></script>
-<script type="text/javascript" src="{{ asset('public/js/jquery.zoomslider.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('/js/jquery-2.1.4.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('/js/modernizr-2.6.2.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('/js/jquery.zoomslider.min.js') }}"></script>
 <!-- requried-jsfiles-for owl -->
-<script src="{{ asset('public/js/owl.carousel.js') }}"></script>
+<script src="{{ asset('/js/owl.carousel.js') }}"></script>
 <script>
     $(document).ready(function() {
         $("#owl-demo2").owlCarousel({
@@ -542,7 +534,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </script>
 <!-- //requried-jsfiles-for owl -->
 <!-- start-smoth-scrolling -->
-<script type="text/javascript" src="{{ asset('public/js/move-top.js') }}"></script>
+<script type="text/javascript" src="{{ asset('/js/move-top.js') }}"></script>
 <script type="text/javascript" src=""></script>
 <script type="text/javascript">
     jQuery(document).ready(function($) {
@@ -571,12 +563,28 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </script>
 <!-- //here ends scrolling icon -->
 <!--js for bootstrap working-->
-<script src="{{ asset('public/js/bootstrap.js') }}"></script>
+<script src="{{ asset('js/bootstrap.js') }}"></script>
 <!-- //for bootstrap working -->
 
 <!-- for pricing -->
 <!-- Pricing-Popup-Box-JavaScript -->
-<script src="{{ asset('public/js/jquery.magnific-popup.js') }}" type="text/javascript"></script>
+<script src="{{ asset('js/jquery.magnific-popup.js') }}" type="text/javascript"></script>
+<script>
+		$(document).ready(function() {
+			$('.popup-with-zoom-anim').magnificPopup({
+				type: 'inline',
+				fixedContentPos: false,
+				fixedBgPos: true,
+				overflowY: 'auto',
+				closeBtnInside: true,
+				preloader: false,
+				midClick: true,
+				removalDelay: 300,
+				mainClass: 'my-mfp-zoom-in'
+		});
+																						
+	});
+	</script>
 <!-- //Pricing-Popup-Box-JavaScript -->
 </body>
 </html>
