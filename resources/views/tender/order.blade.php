@@ -5,9 +5,7 @@
     <div class="container-fluid">
             <!-- Breadcrumbs-->
             <ol class="breadcrumb">
-                <li class="breadcrumb-item">
-                    <a href="{{ route('tender_dashboard') }}">Dashboard</a>
-                </li>
+               
                 <li class="breadcrumb-item active">Add Subscription</li>
             </ol>
             <div class="row">
